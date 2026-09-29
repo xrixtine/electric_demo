@@ -107,7 +107,7 @@
 
             <!-- Search and Filter Section -->
             <div class="search-filter-section">
-                <form method="GET" action="<?= base_url() ?>">
+                <form method="GET" action="<?= base_url('dashboard') ?>">
                     <div class="row g-3">
                         <div class="col-md-4">
                             <input type="text" class="form-control" name="search" placeholder="Search by name, account, email, phone..." value="<?= esc($search_keyword ?? '') ?>">
