@@ -192,6 +192,21 @@ base_url('contact') ?>">Contact</a>
                         <a class="nav-link <?= (isset($page) && $page == 'register') ? 'active' : '' ?>" href="<?= 
 base_url('register') ?>">Register</a> 
                     </li> 
+                    <li class="nav-item ms-lg-2">
+    <a href="<?= base_url('dashboard') ?>"
+       style="
+           display: inline-block;
+           background-color: #f59e0b;
+           color: white;
+           font-weight: 600;
+           text-decoration: none;
+           padding: 10px 28px;
+           border-radius: 25px;
+       ">
+        Login
+    </a>
+</li>
+                    </li>
                 </ul> 
             </div> 
         </div> 
