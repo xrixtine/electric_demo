@@ -193,7 +193,7 @@ base_url('contact') ?>">Contact</a>
 base_url('register') ?>">Register</a> 
                     </li> 
                     <li class="nav-item ms-lg-2">
-    <a href="<?= base_url('dashboard') ?>"
+    <a href="<?= base_url('login') ?>"
        style="
            display: inline-block;
            background-color: #f59e0b;
